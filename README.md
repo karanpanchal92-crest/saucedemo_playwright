@@ -76,12 +76,6 @@ Before running the tests, ensure you have:
 
    Update the `.env` file with your test credentials:
 
-   ```env
-   TEST_USERNAME=standard_user
-   TEST_PASSWORD=secret_sauce
-   BASE_URL=https://www.saucedemo.com
-   ```
-
 ## ▶️ Running Tests
 
 Execute the complete test suite:
@@ -102,12 +96,6 @@ Run tests on a specific browser:
 npx playwright test --project=chromium
 npx playwright test --project=firefox
 npx playwright test --project=webkit
-```
-
-Run a specific test file:
-
-```bash
-npx playwright test tests/saucedemo_checkout.spec.ts
 ```
 
 ## 📊 Test Reports
